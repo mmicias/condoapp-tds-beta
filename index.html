@@ -1,61 +1,167 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CondoAPP-TDS Beta</title>
 
-<link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CondoAPP-TDS Beta</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
-<h1>CondoAPP-TDS</h1>
-<p>Gestão Condominial Inteligente</p>
+<header class="hero">
 
-<a href="#contato">Solicitar Demonstração</a>
+    <div class="badge">
+        BETA PÚBLICO
+    </div>
+
+    <h1>CondoAPP-TDS</h1>
+
+    <p>
+        Plataforma integrada para gestão condominial,
+        centralizando comunicação, ocorrências,
+        zeladoria, lazer e administração.
+    </p>
+
+    <div class="buttons">
+
+        <a href="#contato" class="btn btn-primary">
+            Solicitar Demonstração
+        </a>
+
+        <a href="docs/INVESTOR.md" class="btn btn-secondary">
+            Área do Investidor
+        </a>
+
+    </div>
 
 </header>
 
 <section>
 
-<h2>Principais Recursos</h2>
+    <div class="section-title">
+        <h2>Recursos Principais</h2>
+    </div>
 
-<ul>
-<li>Multi-condomínio</li>
-<li>Moradores</li>
-<li>Síndicos</li>
-<li>Comunicados</li>
-<li>Ocorrências</li>
-<li>Zeladoria</li>
-<li>Lazer</li>
-<li>Câmeras</li>
-</ul>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Moradores</h3>
+
+            <ul>
+                <li>Comunicados</li>
+                <li>Reservas</li>
+                <li>Ocorrências</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Síndicos</h3>
+
+            <ul>
+                <li>Dashboard</li>
+                <li>Relatórios</li>
+                <li>Gestão</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Zeladoria</h3>
+
+            <ul>
+                <li>Tarefas</li>
+                <li>Checklists</li>
+                <li>Manutenções</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Administração</h3>
+
+            <ul>
+                <li>Multi-condomínio</li>
+                <li>Controle Operacional</li>
+                <li>Permissões</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <div class="section-title">
+        <h2>Sobre a Plataforma</h2>
+    </div>
+
+    <p>
+        Desenvolvida pela Techuser Technology para modernizar a gestão
+        condominial através da centralização das informações e automação
+        dos processos administrativos.
+    </p>
 
 </section>
 
 <section>
 
-<h2>Sobre a Plataforma</h2>
+    <div class="section-title">
+        <h2>Roadmap</h2>
+    </div>
 
-<p>
-Centralize a comunicação, operação e administração
-de condomínios em uma única plataforma.
-</p>
+    <ul class="roadmap">
+        <li>✅ Beta Público</li>
+        <li>✅ Landing Page Oficial</li>
+        <li>🔄 Primeiro Condomínio Piloto</li>
+        <li>🔄 Aplicativo Android</li>
+        <li>🔄 Aplicativo iOS</li>
+        <li>🔄 IA para Gestão Condominial</li>
+    </ul>
 
 </section>
 
 <section id="contato">
 
-<h2>Contato</h2>
+    <div class="section-title">
+        <h2>Solicite uma Demonstração</h2>
+    </div>
 
-<p>Techuser Technology</p>
+    <div class="contact">
 
-<p>CondoAPP-TDS Beta</p>
+        <form id="contact-form">
+
+            <input type="text" placeholder="Nome">
+
+            <input type="email" placeholder="Email">
+
+            <input type="text" placeholder="Condomínio">
+
+            <input type="text" placeholder="Telefone">
+
+            <textarea rows="5" placeholder="Mensagem"></textarea>
+
+            <button type="submit">
+                Solicitar Demonstração
+            </button>
+
+        </form>
+
+    </div>
 
 </section>
 
+<footer>
+
+    <p>CondoAPP-TDS Beta</p>
+
+    <p>Techuser Technology</p>
+
+</footer>
+
+<script src="js/main.js"></script>
+
 </body>
+
 </html>
